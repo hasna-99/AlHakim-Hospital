@@ -1,0 +1,705 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>AlHakim Hospital</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <link rel="icon" type="image/png" href="images/dentist/hospital logo2.png">
+
+  </head>
+
+  <body>
+    <!-- ==============================   Header Start ================================ -->
+    <header> <!-- header -->
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-fluid ">
+          <input type="image" src="images/dentist/hospital logo2.png" alt="logo-image">
+          <a class="navbar-brand text-info ms-2" href="#" style="border-right:1px solid #005f73; padding-right: 10px; font-weight: bold;">AlHakim Hospital</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <button class="nav-link dropdown-toggle border-info rounded-2" href="#" id="nav-Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </button>
+                <ul class="dropdown-menu mt-2  " aria-labelledby="nav-Dropdown">
+                  <li><a class="dropdown-item" href="#">Neurosurgery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Mouth and Dental Health</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">General Surgery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Ophthalmology</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control m-3  border-info" type="search" placeholder="Search" aria-label="Search">
+
+            </form>
+            <form class="d-flex">
+              <button class=" navbtn btn bg-info text-white me-3  border-info rounded-3 shadow-lg btnav" type="submit">Search</button>
+              <button class="navbtn btn bg-info text-white  border-info rounded-3 shadow-lg btnav" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+            </form> <!-- /form -->
+          </div> <!-- /navbar-collapse -->
+
+        </div>
+      </nav>
+      <!-- /navbar -->
+    </header> <!-- /header -->
+    <!-- Modal -->
+    <div class="modal fade " id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog ">
+        <div class="modal-content">
+          <div class="modal-header ">
+            <h5 class="modal-title text-light font-weight-bolder  " id="staticBackdropLabel">Login</h5>
+            <button type="button" class="btn btn-close bg-light  " data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body " >
+            <!-- form -->
+            <form>
+              <div class="m-3">
+                <label class="form-label">Enter Your Email</label>
+                <input type="email" class="form-control border-3 border-info rounded-2" aria-describedby="emailHelp">
+                <p class="form-text text-secondary">We'll never share your email with anyone else.</p>
+              </div>
+              <div class="m-3">
+                <label class="form-label">Enter Your Password</label>
+                <input type="password" class="form-control  border-3 border-info rounded-2">
+              </div>
+              <div class="m-3 form-check">
+                <div class="form-check form-switch">
+                  <input class="form-check-input " type="checkbox" role="switch" checked="">
+                  <label class="form-check-label" for="flexSwitchCheckChecked">Remmember me</label>
+                </div>
+              </div> <!-- /form check -->
+
+            </form>
+            <!-- /form -->
+            <div class="modal-footer d-flex  justify-content-between">
+              <button type="submit" class="btn  text-light btnform">Login</button>
+              <button type="button" class="btn  text-light btnform" data-bs-dismiss="modal">Cancel</button>
+            </div> <!-- /model-footer -->
+          </div> <!-- /model-body -->
+        </div> <!-- /modal-content -->
+      </div> <!-- /modal-dialog -->
+    </div> <!-- /modal -->
+    <!-- ==============================   Header End  ================================= -->
+   
+    <!-- ============================ Aside Social media Start========================= -->
+    <aside>
+      <div class="container-fluid p-0 " style="position: relative;">
+
+        <div class="d-flex flex-column justify-content-between ms-auto" style="position: fixed;z-index: 9999;top: 230px;right:10px;">
+          <div class="aside-icon "><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-whatsapp-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-linkedin"></i></a></div>
+        </div>
+    </div>
+  </aside>
+    <!-- ============================ Aside Social media End========================= -->
+
+    <!-- ============================ Main Start ========================= -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" aria-label="Slide 1" class=""></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-label="Slide 4" class="active" aria-current="true"></button>
+  </div>
+
+  <!-- carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="images/dentist/Laboratory2.jpg" alt="Laboratory" class="d-block w-100" style="height: 550px;">
+      <div class="carousel-caption">
+        <h1>Laboratory Department</h1>
+        <p>All types of analyzes are available within the department</p>
+        <a href="#" class="btn btn-info text-white text-shadow btnCarousel" target="_blank">Laboratory</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/dentist/surgery.jpg" alt="Surgery" class="d-block w-100" style="height: 550px;">
+      <div class="carousel-caption">
+        <h1>Department of Surgery</h1>
+        <p>We combine high-level experience and advanced technology to provide outstanding health care</p>
+        <a href="#" class="btn btn-info text-white text-shadow btnCarousel" target="_blank">More Info</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/dentist/x-ray-scan.jpg" alt="Radiography" class="d-block w-100" style="height: 550px;">
+      <div class="carousel-caption">
+        <h1>Department of Radiography</h1>
+        <p>We have the latest X-ray, axial tomography, and magnetic resonance imaging devices</p>
+        <a href="#" class="btn btn-info text-white text-shadow btnCarousel" target="_blank">More Info</a>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="carousel-item active">
+      <img src="images/dentist/dintest.png" alt="Dentistry" class="d-block w-100" style="height: 550px;">
+      <div class="carousel-caption">
+        <h1>Department of Dentistry</h1>
+        <p>To maintain strong teeth with great care, you must visit the dental department at Al-Hakim Hospital</p>
+        <a href="#" class="btn btn-info text-white text-shadow btnCarousel" target="_blank">More Info</a>
+      </div>
+    </div>
+  </div> <!-- /carousel -->
+
+  <!--prv & next -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- AlHakim Hospital -->
+<section class="cards">
+  <div class="card pt-3 ps-2 shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color:#eee;">
+    <div class="card-body">
+      <h2 class="card-title title">AlHakim Hospital</h2>
+      <div class="line"></div>
+      <p class="card-text" style="margin-top: 20px; font-size: 18px;">We are working to create centers of excellence in these fields through high-level technology and experienced healthcare professionals...
+        Our patients, their relatives and the institutions we serve are guests of the Al-Hakim family... Their physiological and psychological well-being is our top priority.
+        The most important asset we have for all these treatments to achieve successful medical outcomes is our doctors</p><hr>
+        <p class="card-text  " style=" font-size: 20px; font-weight: bold;">Al-Hakim Hospital aims to provide you with a good life through a team of experienced doctors.</p><hr>
+      <a href="#" class="btn btn-light text-info  btn-lg m-auto btnHakim">Learn More</a>
+    </div>
+  </div>
+</section> <!-- /AlHakim Hospital-->
+  
+    <!-- ============================ Main End   ========================= -->
+
+    <!-- ============================ Accordion Start ========================= -->
+          <!-- collapse Accordion-->
+          <div class="mx-auto my-3 p-2  text-center" style="text-shadow: 2px 2px 5px rgb(61, 247, 253);" >
+            <h1>The main departments in the hospital</h1>
+          </div>
+          <div class="accordion" id="accordioncollapse">
+            <div class="accordion-item">
+              <h2 class="accordion-header " id="head1">
+                <button class="accordion-button collapsed btn-outline-info text-info title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 20px;">
+                  Emergency clinic
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="head1" data-bs-parent="#accordioncollapse">
+                <div class="accordion-body border-info text-secondary">
+                  Al-Hakim Hospital's emergency room doctor and nurse welcome you as soon as you walk in the door, your urgency is determined immediately and medical intervention begins without wasting time. After that, diagnosis, follow-up 
+                  and treatment are carried out in a multidisciplinary manner with all types of 
+                  laboratory support and advanced imaging in the process carried out by the relevant specialist physician. </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="head2">
+                <button class="accordion-button collapsed btn-outline-info text-info title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  The mouth and teeth's health
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="head2" data-bs-parent="#accordioncollapse">
+                <div class="accordion-body border-info text-secondary">
+                  The oral and dental health staff at Al-Hakim Hospital consists of expert and competent dentists in each branch. 
+                  In the clinic, current technological and aesthetic applications are implemented in a scientific and patient-oriented manner. 
+                  A team of expert dentists from every branch of dentistry is always at your service for your oral health.
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="head3">
+                  <button class="accordion-button collapsed btn-outline-info text-info  shadow-lg title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    General Surgery
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="head3" data-bs-parent="#accordioncollapse">
+                  <div class="accordion-body border-info text-secondary">
+                    General Surgery Clinic at Al-Hakim Hospital; It brings together doctors specialized in branches such as endocrine surgery, breast pathology and surgery, liver and biliary surgery, peripheral vascular surgery, varicose veins, and obesity surgery. 
+                    These branches offer teamwork to their patients, together with the Departments of Oncology, 
+                    Radiology, Plastic Surgery and Psychiatry, with a multidisciplinary approach within them. </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="head4">
+                  <button class="accordion-button collapsed btn-outline-info text-info  shadow-lg title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    Obstetrics And Gynecology
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="head4" data-bs-parent="#accordioncollapse">
+                  <div class="accordion-body border-info text-secondary">
+                    Department of Obstetrics and Gynecology, Al-Hakim Hospital; 
+                    It aims to achieve the highest success rate in treating all diseases related to women’s health, the changes they suffer from before and after pregnancy, 
+                    during menopause, and gynecological cancers, which represent every woman’s nightmare.</div>
+                </div>
+              </div>
+            </div> <!-- /accordion-->
+              <!-- /collapse -->
+            <!-- ============================ Accordion End   ========================= -->
+
+            <!-- ============================ Translate Start ========================= -->
+            <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style=" background:-webkit-linear-gradient(90deg,#025497bd,rgba(40, 153, 134, 0.795))">
+              <h1>Translate From Arabic To English</h1>
+            </div>
+            <!-- card1 -->
+            <div class="card p-2 shadow-lg" style="background-color:#e1f1f5; ">
+              <div class="card-body">
+                <h4 class="card-title ">Write and Translate <a href="https://translate.google.com/?sl=ar&tl=en&op=translate" target="_blank" rel="noopener" style="font-weight: bold;  color: #025497bd !important;">Press Here</a></h4>
+                <button class="btn btn-light text-info border border-2 btntranslate shadow-lg " onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px;">Copy
+                </button>
+                <br>
+                <textarea id="sentence" class="form-control mx-auto mt-3" rows="4" placeholder="translate:" name="text"></textarea>
+              </div>
+            </div>
+            <!-- /card1 -->
+          
+            <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background:-webkit-linear-gradient(90deg,#025497bd,rgba(40, 153, 134, 0.795)) ">
+              <h1>Translate From Arabic To Frensh</h1>
+            </div>
+            <!-- card2 -->
+            <div class="card p-3   shadow-lg" style="background-color:#e1f1f5;">
+              <div class="card-body">
+                <h4 class="card-title ">Write and Translate <a href="https://translate.google.com/?sl=ar&tl=fr&op=translate" target="_blank" rel="noopener" style="font-weight: bold;  color: #025497bd !important;">Press Here</a></h4>
+                <button class="btn btn-light text-info border border-2 btntranslate shadow-lg" onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px;">
+                  Copy
+                </button>
+                <br>
+                <textarea id="sentence" class="form-control mx-auto mt-3" rows="4" placeholder="translate:" name="text"></textarea>
+              </div>
+            </div>
+            <!-- /card2 -->
+            
+            <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background:-webkit-linear-gradient(90deg,#025497bd,rgba(40, 153, 134, 0.795)) ">
+              <h1>Translate From Arabic To German</h1>
+            </div>
+            <!-- card3 -->
+            <div class="card p-3  shadow-lg" style="background-color:#e1f1f5;">
+              <div class="card-body">
+                <h4 class="card-title ">Write and Translate <a href="https://translate.google.com/?sl=ar&tl=de&op=translate" target="_blank" rel="noopener" style="font-weight: bold;  color: #025497bd !important;">Press Here</a></h4>
+                <button class="btn btn-light text-info border border-2 btntranslate shadow-lg" onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px;"> Copy
+                </button>
+                <br>
+                <textarea id="sentence" class="form-control mx-auto mt-3" rows="4" placeholder="translate:" name="text" ></textarea>
+              </div>
+            </div>
+            <!-- /card3 -->
+      </div>
+
+            <!-- ============================ Translate End   ========================= -->  
+
+    <hr class="my-5">
+    <div class="fixed-img fixed-image1"></div>
+
+    <!-- =============================   Health Blog Start  =============================== -->
+<section>
+  <div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg" style="background:-webkit-linear-gradient(90deg,#025497bd,rgba(40, 153, 134, 0.795))">
+    <h1  style="text-transform: uppercase; font-size: 40px;">Health Blog</h1>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-around pb-5 ">
+      <!-- Tube Stomach Obesity Surgery-->
+      <div class="card cardoverlay bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/health/Gastric tube obesity surgery.jpeg" class="card-img-top shadow w-100 " style="height: 300px;" alt="  Gastric surgery">
+        <div class="card-body">
+          <h5 class="card-title">Tube Stomach Obesity Surgery</h5>
+            <button class="btn btn-primary text-light mx-auto d-block btnblog">Know More</button>
+        </div>
+      </div>
+      <!-- /Tube Stomach Obesity Surgery -->
+
+      <!-- Waist and Neck Hernia -->
+      <div class="card cardoverlay bg-light  col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/health/Waist and Neck Hernia.jpeg" class="card-img-top shadow" style="height: 300px;" alt=" pic">
+        <div class="card-body">
+          <h5 class="card-title">Waist and Neck Hernia</h5>
+             <button class="btn btn-primary text-light mx-auto d-block btnblog">Know More</button>
+        </div>
+      </div>
+      <!-- /Waist and Neck Hernia -->
+
+      <!-- Cervical Radiculopathy -->
+      <div class="card cardoverlay bg-light  col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/health/Cervical Radiculopathy.png" class="card-img-top shadow" style="height: 300px;" alt=" pic">
+        <div class="card-body">
+          <h5 class="card-title"> Cervical Radiculopathy</h5>
+            <button class="btn btn-primary text-light mx-auto d-block btnblog">Know More</button>
+        </div>
+      </div>
+      <!-- /Cervical Radiculopathy -->
+
+      <!-- General Hair Loss and Problems -->
+      <div class="card cardoverlay bg-light  col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/health/General Hair Loss and Problems.jpeg" class="card-img-top shadow" style="height: 300px;" alt=" pic">
+        <div class="card-body">
+          <h5 class="card-title">General Hair Loss and Problems</h5>
+            <button class="btn btn-primary text-light mx-auto d-block btnblog">Know More</button>
+        </div>
+      </div>
+      <!-- /General Hair Loss and Problems-->
+      <!-- Facet Syndrome -->
+      
+      <div class="card cardoverlay bg-light  col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/health/Facet Syndrome.png" class="card-img-top shadow" style="height: 300px;" alt=" pic">
+        <div class="card-body">
+          <h5 class="card-title">Facet Syndrome</h5> <br>
+          <button class="btn btn-primary text-light mx-auto d-block btnblog">Know More</button>
+        </div>
+      </div>
+      <!-- Facet Syndrome -->
+
+      <!-- Rhinoplasty -->
+      <div class="card cardoverlay bg-light  col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/health/Rhinoplasty.jpeg" class="card-img-top shadow" style="height: 300px;" alt=" pic">
+        <div class="card-body">
+          <h5 class="card-title">Rhinoplasty</h5>
+            <button class="btn btn-primary text-light mx-auto d-block btnblog mt-4">Know More</button>
+        </div>
+      </div>
+      <!-- /Rhinoplasty -->
+    </div> <!-- /row  -->
+  </div> <!-- /container -->
+</section>
+<!-- =============================   Health Blog End    =============================== -->
+
+<div class="fixed-img fixed-image2"></div>
+
+    <!-- =============================   Doctors Team Start    =============================== -->
+<!-- Doctors Team -->
+<div class="card p-3  text-white shadow-lg mt-4" style="background:-webkit-linear-gradient(90deg,#025497bd,rgba(40, 153, 134, 0.795))">
+  <h2 class="text-center text-light m-3" style=" text-transform: uppercase; font-size: 40px;">Doctors Team</h2>
+</div>
+
+<section class="wrapper">
+  <div class="container" style="width: 100%;">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card card-hover text-white card-has-bg click-col thankcard"
+          style="background-image:url('images/doctors/doctors-1.jpg');">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+              <small><i class="far fa-clock"></i> November 25, 2023</small>                
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="images/doctors/doctors-1.jpg" alt="Generic placeholder image"
+                  style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block"> Dr: Mohammed Kader</h6>
+                      <small>Surgeon</small>
+                </div>
+              </div>
+            </div> <!-- card-footer-->
+      </div> <!-- /card-img-overlay -->
+          </div> <!-- /card -->
+        </div> <!-- /card1 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card card-hover text-white card-has-bg click-col thankcard"style="background-image:url('images/doctors/doctors-2.jpg');">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+              <small><i class="far fa-clock"></i> November 25, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="images/doctors/doctors-2.jpg" alt="Generic placeholder image"
+                  style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block"> Dr: Rana Ahmed</h6>
+                  <small>Dentist</small>
+                </div>
+              </div>
+            </div> <!-- card-footer -->
+          </div> <!-- /card-img-overlay -->
+        </div> <!-- /card -->
+      </div> <!-- /card2 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card3">
+        <div class="card card-hover text-white card-has-bg click-col thankcard"style="background-image:url('images/doctors/doctors-3.jpg');">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+              <small><i class="far fa-clock"></i> November 25, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="images/doctors/doctors-3.jpg" alt="Generic placeholder image"
+                  style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block"> Dr: Haitham Alomar</h6>
+                      <small>Pediatrician</small>
+                </div>
+              </div>
+            </div> <!-- card-footer -->
+          </div> <!-- /card-img-overlay -->
+        </div> <!-- /card -->
+      </div> <!-- /card3 -->
+    </div> <!-- /row -->
+  </div>
+</section>
+<!--/Doctors Team -->
+    <!-- =============================   Doctors Team End      =============================== -->
+
+    <!-- =============================   postcards Start     =============================== -->
+    <section class="container light"> 
+      <!-- postcards news -->
+      <div class="container py-2">
+        <div class="h1 text-center mb-5  title" id="pageHeaderTitle" style="font-size: 34px;">General medical information</div>
+
+        <article class="postcard d-flex light blue"> 
+          <!-- card 1 -->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/departments-1.jpg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title blue"><a href="#">Initial Clinical Examination</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, November 20th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">The initial clinical examination is extremely important in diagnosing health conditions and determining treatment needs. This examination allows doctors to examine physical symptoms and signs, 
+              which helps detect early diseases and determine subsequent care plans. 
+              The clinical examination includes examination of blood pressure, heart, ears, and eyes, 
+              and contributes to identifying general health problems. 
+              This measure is considered essential for prevention and comprehensive health care, 
+              and contributes to enhancing health awareness and ensuring an effective response to any 
+              health challenges that may arise.</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>50 mins.</li>
+              <li class="tag__item play blue">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /card 1-->
+        <article class="postcard d-flex light red"> <!--card 2 -->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/departments-2.jpg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title red"><a href="#">Maintaining The Nervous System</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, November 23th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">The nervous system plays a vital role in the body's functions, 
+              so periodic nerve examination is necessary for early detection of its diseases. 
+              This includes a comprehensive examination of nerve function and sensory and motor 
+              response tests. Regular examination can diagnose problems such as neuropathy, 
+              chronic nerve disease, and peripheral nervous system disease. This approach contributes 
+              to detecting early symptoms and developing appropriate treatment plans. 
+              Through regular screening, nerve problems can be identified before they cause larger 
+              health problems, promoting comprehensive care and improving quality of life.</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>50 mins.</li>
+              <li class="tag__item play red">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /card 2-->
+        <article class="postcard d-flex  light green"> <!--card 3-->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/departments-5.jpg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title green"><a href="#">Regular Eye Examination</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, November 20th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">Regular eye examination is of great importance in maintaining healthy vision and preventing eye diseases. 
+              This examination helps detect vision problems early, allowing appropriate treatment and limiting the development of diseases. 
+              Regular examination also enables the diagnosis of general health problems that may affect the eyes, such as diabetes and high blood pressure. 
+              In addition, regular examination provides an opportunity to correct refractive errors by prescribing glasses or contact lenses, 
+              which contributes to improving vision and comfort of the eyes. 
+              Conducting this examination regularly enhances awareness of the importance of eye health care and contributes to maintaining visual quality of life.</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+              <li class="tag__item play green">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /card 3-->
+        <article class="postcard d-flex light yellow "> <!--card 4-->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/departments-4.jpg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title yellow"><a href="#">Newborn Health</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Mon, November 20th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">The health of newborns is essential to their development and 
+              growth. Health care for infants includes periodic examinations to check their normal growth 
+              and development, and to evaluate the functions of vital organs and systems. Good nutrition 
+              and necessary vaccinations contribute to strengthening immunity and preventing diseases. 
+              Early detection of any health problems plays an important role in providing appropriate 
+              treatment and avoiding possible complications. Encouraging good mental and physical health care, 
+              in addition to providing a safe environment, contributes to ensuring a strong healthy start 
+              for newborns.</div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>50 mins.</li>
+              <li class="tag__item play yellow">
+                <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /card 4-->
+      </div> <!-- /container -->
+    </section> <!-- /postcard section -->
+    <!-- =============================   postcards End      =============================== -->
+
+    <!-- =============================   Contact Us Start      =============================== -->
+
+<h2 class="text-center text-light title" style="font-size: 30px;">Contact Us</h2>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+
+    <!-- Facebook -->
+    <div class="card m-3 bg-light " style="width: 250px; ">
+      <div class="card-body d-flex flex-column text-center">
+        <h3 class="card-title mb-3" style="color: #035869 !important;"> Facebook
+        </h3>
+        <i class=" icons fab fa-facebook-f"></i>
+        <a href="#" target="_blank" class="card-link h4 " style="color: #035869 !important;">Go to link</a>
+      </div>
+    </div>
+
+    <!-- Whatsapp -->
+    <div class="card m-3 bg-light " style="width: 250px;">
+      <div class="card-body d-flex flex-column text-center">
+        <h3 class="card-title mb-3" style="color: #035869 !important;">Whatsapp
+        </h3>
+        <i class=" icons fab fa-whatsapp"></i>
+        <a href="" target="_blank" class="card-link h4 " style="color: #035869 !important;">Go to link</a>
+      </div>
+    </div>
+
+    <!-- Instagram -->
+    <div class="card m-3 bg-light " style="width: 250px; ">
+      <div class="card-body  d-flex flex-column text-center">
+        <h3 class="card-title mb-3" style="color: #035869 !important;">  Instagram
+        </h3>
+        <i class="icons fab fa-instagram"></i>
+        <a href="" target="_blank" class="card-link h4 " style="color: #035869 !important;">Go to link</a>
+      </div>
+    </div>
+
+    <!-- Linked In -->
+    <div class="card m-3 bg-light " style="width: 250px;">
+      <div class="card-body  d-flex flex-column text-center">
+        <h3 class="card-title mb-3" style="color: #035869 !important;"> Linked in
+        </h3>
+        <i class=" icons fab fa-linkedin-in"></i>
+        <a href="" target="_blank" class="card-link h4" style="color: #035869 !important;">Go to link</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- =============================   Contact Us End        =============================== -->
+
+    <!-- =============================   Footer Start        =============================== -->
+ <footer class=" text-light pb-2 foot">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <hr class=" border-top border-3 border-light my-3">
+        <h5><img src="images/dentist/hospital logo2.png" alt="good pic" class="logoicon rounded-circle me-3" style="background-color: #bee0e9 !important; width: 70px; height: 70px; border-radius: 50%; padding: 5px;">AlHakim Hospital</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <address>
+          <p>Tel : 091-234-5678</p>
+          <p>Address : Syria, Aleppo</p>
+          <p>Fax : 123-456-789</p>
+        </address>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top border-3 border-light my-3">
+        <h5><img src="images/dentist/hospital logo2.png" alt="good pic" class="logoicon rounded-circle me-3" style="background-color: #bee0e9 !important; width: 70px; height: 70px; border-radius: 50%; padding: 5px;">Important links</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <p><a href="#" class="textCenter">Visit Us</a></p>
+        <p><a href="#" class="textCenter">All Departments</a></p>
+        <p><a href="#" class="textCenter">Your health is more important</a></p>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top border-3 border-light my-3">
+        <h5><img src="images//dentist/hospital logo2.png" alt="good pic" class="logoicon rounded-circle me-3" style="background-color: #bee0e9 !important; width: 70px; height: 70px; border-radius: 50%; padding: 5px; ">Vision</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <p>Serveices for all </p>
+        <p>Provide best serveices</p>
+        <p>you will be better than before</p>
+      </div>
+    </div>
+  </div>
+  <hr class="border-top border-3 border-light my-3">
+  <span class="text-center d-block footer-text ">Copyright © 2023 Hasna Kaddour, AlHakim Hospital. Allrights</span>
+  <hr class="border-top border-3 border-light my-3">
+</footer> 
+<!-- =============================   Footer End          =============================== -->
+
+  <!-- =============================   JS Code Strt    =============================== -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
+    <script type-text="javascript">
+      function copyToClipboard(id) {
+              var from = document.getElementById(id);
+              var range = document.createRange();
+              window.getSelection().removeAllRanges();
+              range.selectNode(from);
+              window.getSelection().addRange(range);
+              document.execCommand('copy');
+              window.getSelection().removeAllRanges();
+              window.alert("تم نسخ النص.");
+       }
+      </script> 
+       <!-- =============================   JS Code  End    =============================== -->
+</body>
+</html>
